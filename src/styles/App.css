@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --main-background-color: rgb(25, 25, 25);
+  --card-background-color: rgb(47, 47, 47);
+  --section-background-color: rgb(28, 28, 28);
+  --card-hover-background-color: rgb(55, 55, 55);
+  --main-font-color: rgba(255, 255, 255, .81);
+  --secondary-font-color: rgb(127, 127, 127);
+  --empty-font-color: rgba(255, 255, 255, 0.282);
+}
+
+body {
+  background-color: var(--main-background-color);
+  color: var(--main-font-color);
+  line-height: 1.5;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 24px;
+}
+
+/* Structure */
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
