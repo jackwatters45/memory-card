@@ -4,7 +4,8 @@
   margin: 10px;
   border-radius: 4px;
   text-align: center;
-  width: clamp(200px, calc((100% - 4rem - 56px) / 6), 500px);
+  width: 250px;
+  /* width: clamp(150px, calc((100% - 4rem - 56px) / 4), 450px); */
   box-shadow: rgb(15 15 15 / 50%) 0px 0px 0px 1px, rgb(15 15 15 / 50%) 0px 2px 4px;
   height: auto;
 }
