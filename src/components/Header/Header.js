@@ -4,8 +4,8 @@ import '../../styles/Header.css';
 
 const Header = ({ score, highScore }) => {
   return (
-    <header className="header">
-      <intro className="gameIntro">
+    <div className="header">
+      <div className="gameIntro">
         <div className="gameTitle">
           It's Always Sunny In Philadelphia Memory Game
         </div>
@@ -14,9 +14,9 @@ const Header = ({ score, highScore }) => {
           Get points by clicking on an image but don't click on any more than
           once!
         </div>
-      </intro>
+      </div>
       <Score score={score} highScore={highScore} />
-    </header>
+    </div>
   );
 };
 
